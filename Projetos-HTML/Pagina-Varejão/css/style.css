@@ -1,0 +1,80 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+/* Cabeçalho */
+header{
+    background-color: rgb(35, 134, 4);
+    color: rgba(12, 12, 8, 0.884);
+    padding: 15px;
+    text-align:center;
+    border-bottom:  3px solid hsl(118, 90%, 16%);
+
+}
+
+
+/* Grid de Produtos */
+
+.container {
+    background-color: #eee;
+    min-height:60vh;
+}
+
+
+.products-container {
+    max-width: 1200px;
+    margin:0 auto;
+}
+
+.card {
+    width:31%;
+    display: inline-block;
+    margin: 1% 1%;
+    padding: 15px;
+}
+
+.product-image {
+    height:300px;
+    width:100%;
+    margin: bottom 10px;
+    background-position: center;
+    background-size: cover;
+}
+
+#img0{
+    background-image: url('../img/alface-crespa-verde-hidropônica.png');
+}
+
+#img1{
+    background-image: url('../img/Alface_americana.jpg');
+}
+
+#img2{
+    background-image: url('../img/62d9ab50f02faa18daf1f919.png');
+}
+
+#img3{
+    background-image: url("../img/coentro.jpg");
+}
+#img4{
+    background-image:url("../img/salsinha.jpg");
+}
+#img5{
+    background-image: url("../img/maracuja.jpg");
+}
+
+
+/*Footer */
+
+footer{
+    background-color: rgb(30, 105, 7);
+    color: rgba(12, 12, 8, 0.884);
+    border-top: 3px solid hsl(118, 90%, 16%);
+    padding: 50px;
+    text-align:center;
+}
