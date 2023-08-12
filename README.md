@@ -1,2 +1,2 @@
 # ProjetosEstudo
-Repositório de projetos H
+Repositório de projetos e rascunhos
